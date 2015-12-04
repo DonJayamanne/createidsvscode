@@ -1,0 +1,50 @@
+{
+  "name": "createuniqueid",
+  "displayName": "Create Unique Ids",
+  "description": "Create Unique Ids, UUID/GUID or random numbers",
+  "version": "0.0.1",
+  "publisher": "donjayamanne",
+  "license": "SEE LICENSE IN LICENSE or README.MD",
+  "homepage": "https://github.com/DonJayamanne/listFilesVSCode/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DonJayamanne/listFilesVSCode.git"
+  },
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+	"galleryBanner": {
+        "color": "#0000FF",
+        "theme": "dark"
+    },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:extension.generateuniqueid"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.generateuniqueid",
+        "title": "Generate Unique Id"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "devDependencies": {
+    "typescript": "^1.6.2",
+    "vscode": "0.10.x"
+  },
+  "dependencies": {
+    "copy-paste": "^1.1.4",
+    "random-js": "^1.0.8",
+    "shortid": "^2.2.4",
+    "uuid": "^2.0.1"
+  }
+}
