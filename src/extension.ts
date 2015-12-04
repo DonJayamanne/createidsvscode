@@ -67,7 +67,7 @@ export function activate(context: vscode.ExtensionContext) {
 			if (cmd === "Copy") {
 				copypaste.copy(value);
 			}
-			else {
+			if (cmd === "Insert") {
 				var activeEditor = vscode.window.activeTextEditor;
 				if (activeEditor && activeEditor.selection && activeEditor.selection.active) {
 					activeEditor.edit((editor) => {
