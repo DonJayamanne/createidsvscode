@@ -1,6 +1,7 @@
 # Create Unique Ids
 
 Generate Unique Ids, UUIDs/GUIDs and random numbers.
+Copy the generated id or insert into the text editor.
 
 ![Image of Command](https://raw.githubusercontent.com/DonJayamanne/createidsvscode/master/images/command.png)
 

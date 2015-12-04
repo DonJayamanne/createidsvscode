@@ -1,7 +1,7 @@
 {
   "name": "createuniqueid",
   "displayName": "Create Unique Ids",
-  "description": "Create Unique Ids, UUID/GUID or random numbers",
+  "description": "Create Unique Ids, UUID/GUID or random numbers, and copy to clipboard or insert into editor.",
   "version": "0.0.1",
   "publisher": "donjayamanne",
   "license": "SEE LICENSE IN LICENSE or README.MD",
