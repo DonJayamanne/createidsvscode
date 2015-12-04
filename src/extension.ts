@@ -51,8 +51,9 @@ export function activate(context: vscode.ExtensionContext) {
 	}
 	function generateRandomNumberAndDisplay() {
 		var minNum = minimumNumber < maximumNumber ? minimumNumber : maximumNumber;
+		var maxNum = minimumNumber > maximumNumber ? minimumNumber : maximumNumber;
 		random = random || new Random(Random.engines.mt19937().autoSeed());
-		var value = random.integer(1, 100);
+		var value = random.integer(minNum, maxNum);
 		displayResult(value.toString());
 	}
 	function displayResult(value: string) {
