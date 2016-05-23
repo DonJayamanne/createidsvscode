@@ -5,10 +5,10 @@
   "version": "0.0.3",
   "publisher": "donjayamanne",
   "license": "SEE LICENSE IN LICENSE or README.MD",
-  "homepage": "https://github.com/DonJayamanne/listFilesVSCode/blob/master/README.md",
+  "homepage": "https://github.com/DonJayamanne/createidsvscode/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DonJayamanne/listFilesVSCode.git"
+    "url": "https://github.com/DonJayamanne/createidsvscode.git"
   },
   "icon": "images/icon.png",
   "engines": {
